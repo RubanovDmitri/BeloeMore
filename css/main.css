@@ -1,0 +1,313 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/RobotoRegular.ttf");
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url("../fonts/RobotoBold.ttf");
+}
+
+@font-face {
+    font-family: RobotoBlack;
+    src: url("../fonts/RobotoBlack.ttf");
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    background: #87a8bf2e;
+}
+
+#header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu .menu-item {
+    margin: 0 20px;
+    font-family: RobotoBold, sans-serif;
+    font-size: 16px;
+}
+
+#menu .menu-item a {
+    text-decoration: none;
+    color: #2a5e87;
+}
+
+#main {
+    background-image: url("../images/delicious-fresh-fish-copy-space.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: space;
+}
+
+#main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0 200px 0;
+}
+
+#main h1 {
+    margin: 0 0 100px 0;
+    color: #e9eff3;
+    font-family: RobotoBlack, sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.main-text {
+    max-width: 460px;
+    color: #e9eff3;
+    font-family: RobotoBold, sans-serif;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+#description {
+    background: #87a8bf2e;
+}
+
+#description-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#description-text-container {
+    max-width: 700px;
+}
+
+#description-image {
+    width: 960px;
+    height: 480px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#description-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#description-container-title {
+    margin: 0 auto 80px auto;
+    text-align: center;
+    color: #052640;
+    font-family: RobotoBlack, sans-serif;
+    font-size: 36px;
+}
+
+.description-text {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    margin: 20px 0;
+    color: #052640;
+}
+
+#opportunities {
+    background-image: url("../images/delicious-fresh-salmon-fish.jpg");
+    background-repeat: no-repeat;
+
+}
+
+#opportunities-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0 170px 0;
+    color: #e9eff3;
+}
+
+#opportunities-title {
+    text-align: center;
+    font-family: RobotoBlack, sans-serif;
+    font-size: 40px;
+    margin-bottom: 95px;
+}
+
+#opportunities-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 700px;
+}
+
+.opportunities-list-item{
+    font-family: RobotoBold, sans-serif;
+    font-size: 24px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+#opportunities-text{
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    margin: 50px 0 0 700px;
+}
+
+#features{
+    background: #87a8bf2e;
+}
+
+#features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+#features-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#features-title {
+    font-family: RobotoBlack, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features-card {
+    max-width: 320px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.features-card-title {
+    font-family: RobotoBold, sans-serif;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.features-image {
+    width: 96px;
+    height: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.features-text {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+}
+
+#contacts{
+    background: #87a8bf2e;
+}
+
+#contacts-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0 110px 0;
+}
+
+#contacts-text-map-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contacts-title{
+    font-family: RobotoBlack, sans-serif;
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #2a5e87;
+}
+
+#contacts-text-container{
+   font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: #30475e;
+}
+
+.contacts-text-container-title{
+    font-family: RobotoBold, sans-serif;
+    margin: 15px 0 15px 0;
+}
+
+#contacts-address{
+    max-width: 276px;
+}
+
+#contacts-phone{
+    max-width: 190px;
+    margin: 0 0 25px 0;
+}
+
+#contacts-email{
+    margin: 0 0 25px 0;
+}
+
+#footer{
+    background: #05264030;
+}
+
+#footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#icons-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+    margin: 0 15px;
+}
+
+.icon img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#footer-time{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+#footer-phone{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+
